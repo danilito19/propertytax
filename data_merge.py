@@ -213,49 +213,12 @@ def merge_data(appeals_path, tax_path, sales_path, community_path, year, outpath
 
     aptaxsalecom.to_csv(outpath)
 
-# outpath = "/Users/Dani/Downloads/tax-appeals-sales-community-2015.csv"
-# community_path = "/Users/Dani/Downloads/join_T15.csv"
-# sales_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Sales_Ratios/1st_pass/res15.csv"
-# tax_path = "/Users/Dani/Downloads/bills15.csv" 
-# appeals_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Appeals/appeals15.csv"
-# year = 2015
-
-# print 'STARTING YEAR %s' % year
-# merge_data(appeals_path, tax_path, sales_path, community_path, year, outpath)
-
-outpath = "/Users/Dani/Downloads/tax-appeals-sales-community-2014.csv"
-community_path = "/Users/Dani/Downloads/join_T14.csv"
-sales_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Sales_Ratios/1st_pass/res14.csv"
-tax_path = "/Users/Dani/Downloads/PropTax2014.csv" 
-appeals_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Appeals/appeals14.csv"
-year = 2014
+outpath = "/Users/Dani/Downloads/tax-appeals-sales-community-2015.csv"
+community_path = "/Users/Dani/Downloads/join_T15.csv"
+sales_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Sales_Ratios/1st_pass/res15.csv"
+tax_path = "/Users/Dani/Downloads/bills15.csv" 
+appeals_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Appeals/appeals15.csv"
+year = 2015
 
 print 'STARTING YEAR %s' % year
 merge_data(appeals_path, tax_path, sales_path, community_path, year, outpath)
-
-outpath = "/Users/Dani/Downloads/tax-appeals-sales-community-2013.csv"
-community_path = "/Users/Dani/Downloads/join_T13.csv"
-sales_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Sales_Ratios/1st_pass/res13.csv"
-tax_path = "/Users/Dani/Downloads/PropTax2013.csv" 
-appeals_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Appeals/appeals13.csv"
-year = 2013
-print 'STARTING YEAR %s' % year
-merge_data(appeals_path, tax_path, sales_path, community_path, year, outpath)
-
-# outpath = "/Users/Dani/Downloads/tax-appeals-sales-community-2012.csv"
-# community_path = "/Users/Dani/Downloads/join_T12.csv"
-# sales_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Sales_Ratios/1st_pass/res12.csv"
-# tax_path = "/Users/Dani/Downloads/PropTax2012.csv" 
-# appeals_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Appeals/appeals12.csv"
-# year = 2012
-# print 'STARTING YEAR %s' % year
-# merge_data(appeals_path, tax_path, sales_path, community_path, year, outpath)
-
-# outpath = "/Users/Dani/Downloads/tax-appeals-sales-community-2011.csv"
-# community_path = "/Users/Dani/Downloads/join_T11.csv"
-# sales_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Sales_Ratios/1st_pass/res11.csv"
-# tax_path = "/Users/Dani/Downloads/PropTax2011.csv" 
-# appeals_path = "/Users/Dani/Dropbox/Muni_Finance_Lab/Raw_Data/Appeals/appeals11.csv"
-# year = 2011
-# print 'STARTING YEAR %s' % year
-# merge_data(appeals_path, tax_path, sales_path, community_path, year, outpath)

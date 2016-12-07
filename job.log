@@ -1,0 +1,42 @@
+STARTING YEAR 2015
+tax file shape  (1864058, 83)
+tax df after keeping by year is  (1863218, 83)
+appeals file shape  (370183, 25)
+tax df after dropping duplicate PIN14 is   (1839189, 84)
+Empty DataFrame
+Columns: [Unnamed: 0, pin, taxyear, appealnum, attorneytaxrep, prioir_av, proppose_av, assr_final, board_av, housenum, dir, street_name, street_suffix, city_name, zip, area, subarea, ass_win, bor_win, bor_rev, assr_rev, total_rev, classification, win, clean_name, PIN_pretty]
+Index: []
+
+[0 rows x 26 columns]
+merging tax and appeals give shape  (367685, 110)
+making lawyer and owner empty string for APPEALS only
+clean_lawyer    2808
+clean_owner       79
+dtype: int64
+clean_lawyer    0
+clean_owner     0
+dtype: int64
+number of rows with empty lawyers in appeals only  2808
+will make empty lawyer in appeals == self.represent = 1
+counts of self_represent
+0    364877
+1      2808
+dtype: int64
+just out of curiosity, how many empty owners there are
+(79, 113)
+counts of self_represent
+0    363187
+1      4498
+dtype: int64
+loading and merging with sales data
+sales file shape  (36381, 21)
+shape of tax appeals sales df (1839524, 217)
+are there pin10 that are not len 10?
+loading community file
+community file shape  (1414583, 27)
+now verify this; checking if pin10 != 10
+Empty DataFrame
+Columns: [pin14, pin10]
+Index: []
+final merge is of shape  (1870788, 243)
+final merge AFTER DROPPING COLS  (1870788, 159)
